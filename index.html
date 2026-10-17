@@ -3,7 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bienvenido Manases</title>
+    <title>BIENVENIDO MANASES | 1234434pruebapb Transmisión en Directo</title>
+    
+    <!-- SEO Core Metadata para Indexación en Google -->
+    <meta name="description" content="Página oficial de bienvenida de Manases. Accede a la transmisión en directo de YouTube y contenido exclusivo. Búsqueda clave: 1234434pruebapb.">
+    <meta name="keywords" content="1234434pruebapb, Bienvenido Manases, directo YouTube, transmisión en vivo, Manases stream">
+    <meta name="author" content="Manases">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <link rel="canonical" href="https://ejemplo.com/index.html">
+
+    <!-- Open Graph (Facebook / Redes Sociales) -->
+    <meta property="og:locale" content="es_ES">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="BIENVENIDO MANASES - Directo en Vivo (1234434pruebapb)">
+    <meta property="og:description" content="Bienvenido a la plataforma de transmisión en directo de Manases. 1234434pruebapb.">
+    <meta property="og:url" content="https://ejemplo.com/index.html">
+    <meta property="og:site_name" content="Bienvenido Manases">
+
+    <!-- Twitter Card Metadata -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="BIENVENIDO MANASES | 1234434pruebapb">
+    <meta name="twitter:description" content="Mira el directo de YouTube en vivo. Búsqueda clave: 1234434pruebapb.">
+
+    <!-- Datos Estructurados JSON-LD (Schema.org) para Google -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "BIENVENIDO MANASES - 1234434pruebapb",
+      "description": "Página oficial de bienvenida de Manases con directo de YouTube. Clave SEO: 1234434pruebapb",
+      "keywords": "1234434pruebapb, Bienvenido Manases, directo youtube",
+      "inLanguage": "es"
+    }
+    </script>
+
     <!-- Tailwind CSS CDN para un estilo moderno y elegante -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -29,38 +62,156 @@
             font-family: 'Inter', sans-serif;
             background: radial-gradient(circle at center, #1e1b4b 0%, #0f172a 100%);
         }
+        .fade-in {
+            animation: fadeIn 0.4s ease-out forwards;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
     </style>
 </head>
 <body class="min-h-screen text-slate-100 flex items-center justify-center p-4 antialiased selection:bg-indigo-500 selection:text-white">
 
     <!-- Tarjeta Principal con efecto Glassmorphism -->
-    <main class="w-full max-w-lg p-8 md:p-12 bg-slate-900/60 backdrop-blur-xl border border-slate-700/50 rounded-3xl shadow-2xl shadow-indigo-950/50 text-center flex flex-col items-center justify-center transition-all duration-300 hover:border-slate-600/60">
+    <main id="mainContainer" class="w-full max-w-lg p-8 md:p-12 bg-slate-900/60 backdrop-blur-xl border border-slate-700/50 rounded-3xl shadow-2xl shadow-indigo-950/50 text-center flex flex-col items-center justify-center transition-all duration-500 hover:border-slate-600/60">
         
-        <!-- Elemento Decorativo Luminoso -->
-        <div class="w-16 h-16 mb-6 rounded-2xl bg-gradient-to-tr from-indigo-500 to-purple-500 flex items-center justify-center shadow-lg shadow-indigo-500/30 animate-pulse-slow">
-            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11c0 3.517-1.009 6.799-2.753 9.571m-3.44-2.04l.054-.09A13.916 13.916 0 008 11a4 4 0 118 0c0 1.017-.07 2.019-.203 3m-2.118 6.844A21.88 21.88 0 0015.171 17m3.839 1.132c.645-2.266.99-4.659.99-7.132A8 8 0 008 4.07M3 15.364c.64-1.319 1-2.8 1-4.364 0-1.457-.39-2.823-1.07-4">
-                </path>
-            </svg>
+        <!-- Vista 1: Bienvenida -->
+        <div id="welcomeView" class="w-full flex flex-col items-center justify-center fade-in">
+            <!-- Elemento Decorativo Luminoso -->
+            <div class="w-16 h-16 mb-6 rounded-2xl bg-gradient-to-tr from-indigo-500 to-purple-500 flex items-center justify-center shadow-lg shadow-indigo-500/30 animate-pulse-slow">
+                <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"></path>
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+            </div>
+
+            <!-- Título Principal -->
+            <h1 class="text-3xl md:text-5xl font-extrabold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-indigo-200 via-sky-300 to-purple-300 mb-2 leading-tight">
+                BIENVENIDO MANASES
+            </h1>
+            <p class="text-xs text-slate-400 font-mono mb-8 opacity-80">Ref: 1234434pruebapb</p>
+
+            <!-- Contenedor del Botón de Acción -->
+            <div class="w-full max-w-xs flex flex-col items-center gap-3">
+                <button 
+                    id="openStreamBtn"
+                    type="button" 
+                    aria-label="Ver directo de YouTube"
+                    class="w-full h-14 bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700 text-white font-semibold rounded-xl transition-all duration-200 shadow-lg shadow-indigo-600/30 hover:shadow-indigo-500/50 focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:ring-offset-2 focus:ring-offset-slate-900 cursor-pointer flex items-center justify-center gap-2 group">
+                    <svg class="w-5 h-5 text-red-400 group-hover:scale-110 transition-transform duration-200" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/>
+                    </svg>
+                    <span>Ver Directo de YouTube</span>
+                </button>
+                <span class="text-xs text-slate-400 font-medium tracking-wide uppercase">( Haz clic para transmitir )</span>
+            </div>
         </div>
 
-        <!-- Título Principal -->
-        <h1 class="text-3xl md:text-5xl font-extrabold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-indigo-200 via-sky-300 to-purple-300 mb-8 leading-tight">
-            BIENVENIDO MANASES
-        </h1>
+        <!-- Vista 2: Reproductor de Directo de YouTube (Oculto inicialmente) -->
+        <div id="streamView" class="w-full hidden flex-col items-center fade-in">
+            <!-- Encabezado de la Sección de Directo -->
+            <div class="w-full flex items-center justify-between mb-4 pb-3 border-b border-slate-700/60">
+                <div class="flex items-center gap-2">
+                    <span class="relative flex h-3 w-3">
+                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
+                        <span class="relative inline-flex rounded-full h-3 w-3 bg-red-500"></span>
+                    </span>
+                    <span class="text-xs font-bold uppercase tracking-wider text-red-400">En Directo</span>
+                </div>
+                <h2 class="text-lg font-bold text-slate-200">BIENVENIDO MANASES</h2>
+            </div>
 
-        <!-- Contenedor del Botón Vacío -->
-        <div class="w-full max-w-xs flex flex-col items-center gap-3">
-            <!-- Botón Vacío (sin texto en su interior) -->
+            <!-- Reproductor Embed de YouTube Responsivo -->
+            <div class="w-full aspect-video rounded-2xl overflow-hidden border border-slate-700 shadow-xl bg-black mb-6">
+                <iframe 
+                    id="youtubeIframe"
+                    class="w-full h-full" 
+                    src="https://www.youtube.com/embed/live_stream?channel=UC4R8DWoMoI7CAwX8_LjQHig" 
+                    title="Directo de YouTube - 1234434pruebapb" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+
+            <!-- Formulario para Cambiar ID o Canal de Youtube en tiempo real -->
+            <div class="w-full bg-slate-800/40 p-3 rounded-xl border border-slate-700/50 mb-6 text-left">
+                <label for="streamUrlInput" class="text-xs font-medium text-slate-400 block mb-1">¿Tienes un enlace o ID de directo específico?</label>
+                <div class="flex gap-2">
+                    <input 
+                        type="text" 
+                        id="streamUrlInput" 
+                        placeholder="ID de video o canal (ej: jfKfPfyJRdk)" 
+                        class="w-full px-3 py-1.5 text-sm bg-slate-900/80 border border-slate-700 rounded-lg text-slate-200 placeholder-slate-500 focus:outline-none focus:border-indigo-500 transition-colors">
+                    <button 
+                        id="loadStreamBtn"
+                        type="button" 
+                        class="px-4 py-1.5 bg-indigo-600 hover:bg-indigo-500 text-xs font-semibold rounded-lg transition-colors whitespace-nowrap">
+                        Cargar
+                    </button>
+                </div>
+            </div>
+
+            <!-- Botón para Volver -->
             <button 
+                id="backBtn"
                 type="button" 
-                aria-label="Botón vacío"
-                class="w-full h-14 bg-indigo-600/20 hover:bg-indigo-600/30 active:bg-indigo-600/40 text-transparent border border-indigo-500/50 hover:border-indigo-400 rounded-xl transition-all duration-200 shadow-md hover:shadow-indigo-500/20 focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:ring-offset-2 focus:ring-offset-slate-900 cursor-pointer">
+                class="px-6 py-2.5 bg-slate-800 hover:bg-slate-700 text-slate-300 font-medium text-sm rounded-xl transition-all border border-slate-700 hover:border-slate-600 focus:outline-none focus:ring-2 focus:ring-slate-500">
+                ← Volver al Inicio
             </button>
-            <span class="text-xs text-slate-400 font-medium tracking-wide uppercase">( Botón Vacío )</span>
         </div>
 
     </main>
 
+    <script>
+        // Elementos DOM
+        const mainContainer = document.getElementById('mainContainer');
+        const welcomeView = document.getElementById('welcomeView');
+        const streamView = document.getElementById('streamView');
+        const openStreamBtn = document.getElementById('openStreamBtn');
+        const backBtn = document.getElementById('backBtn');
+        const streamUrlInput = document.getElementById('streamUrlInput');
+        const loadStreamBtn = document.getElementById('loadStreamBtn');
+        const youtubeIframe = document.getElementById('youtubeIframe');
+
+        // Mostrar Vista del Directo
+        openStreamBtn.addEventListener('click', () => {
+            welcomeView.classList.add('hidden');
+            streamView.classList.remove('hidden');
+            streamView.classList.add('flex');
+            
+            // Expandir el contenedor principal para que quepa bien el reproductor
+            mainContainer.classList.remove('max-w-lg');
+            mainContainer.classList.add('max-w-3xl');
+        });
+
+        // Volver a la Vista de Bienvenida
+        backBtn.addEventListener('click', () => {
+            streamView.classList.add('hidden');
+            streamView.classList.remove('flex');
+            welcomeView.classList.remove('hidden');
+            
+            // Volver al tamaño original
+            mainContainer.classList.remove('max-w-3xl');
+            mainContainer.classList.add('max-w-lg');
+        });
+
+        // Permitir cambiar el ID del vídeo o enlace dinámicamente
+        loadStreamBtn.addEventListener('click', () => {
+            const inputValue = streamUrlInput.value.trim();
+            if (!inputValue) return;
+
+            let videoId = inputValue;
+            // Extraer ID si pegan un enlace completo de YouTube
+            if (inputValue.includes('v=')) {
+                videoId = inputValue.split('v=')[1].split('&')[0];
+            } else if (inputValue.includes('youtu.be/')) {
+                videoId = inputValue.split('youtu.be/')[1].split('?')[0];
+            }
+
+            youtubeIframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
+        });
+    </script>
 </body>
 </html>
